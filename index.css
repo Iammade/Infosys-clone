@@ -1,0 +1,579 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;   
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    width: vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3vw;;
+    
+    padding-right: 2vw
+}
+.nav{
+    background-color: rgb(0, 0, 0);
+    height: 18%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.nav-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    position: relative;
+}
+h4{
+    color: white;
+}
+h4:hover{
+    color: rgb(222, 209, 209);
+    /* text-shadow: 1px 1px 1px rgb(255, 255, 255); */
+}
+.dr1:hover+.dr11{
+    display: block;
+    position: absolute;
+    color: white;
+    top: 80px;
+    right: 340px;
+    font-size: 15px;
+    width: 8vw;
+    height: 5vh;
+    border: 1px rgb(194, 185, 185) solid;
+}
+.dr11{
+    display: none;
+    /* width: 10vw;
+    height: 4vh; */
+    background-color: rgb(66, 67, 67);
+}
+.dr22{
+    display: none;
+    /* width: 10vw;
+    height: 4vh; */
+    background-color: rgb(66, 67, 67);
+}
+.dr2:hover+.dr22{
+    display: block;
+    position: absolute;
+    color: white;
+    top: 80px;
+    right: 100px;
+    font-size: 15px;
+    width: 15vw;
+    height: 5vh;
+    border: 1px rgb(194, 185, 185) solid;
+}
+.dr33{
+    display: none;
+    /* width: 10vw;
+    height: 4vh; */
+    background-color: rgb(66, 67, 67);
+}
+.dr3:hover+.dr33{
+    display: block;
+    position: absolute;
+    color: white;
+    top: 80px;
+    left: 400px;
+    font-size: 15px;
+    width: 8vw;
+    height: 5vh;
+    border: 1px rgb(194, 185, 185) solid;
+}
+.dr44{
+    display: none;
+    /* width: 10vw;
+    height: 4vh; */
+    background-color: rgb(66, 67, 67);
+}
+.dr4:hover+.dr44{
+    display: block;
+    position: absolute;
+    color: white;
+    top: 80px;
+    left: 500px;
+    font-size: 15px;
+    width: 8vw;
+    height: 5vh;
+    border: 1px rgb(194, 185, 185) solid;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 60px;
+}
+.aside{
+    width: 13%;
+    height: 100%;
+    /* background-color: black; */
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+.side{
+    width: 50px;
+    height: 60px;
+    display: block;
+    border-top: 4px rgb(255, 255, 255) solid;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+.con1{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    background-image: url("https://wallpapercave.com/dwp1x/wp10339945.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.ff{
+    position: absolute;
+    top:310px;
+    left:250px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200px;
+}
+.con2{
+    width: 100%;
+    height: 100%;
+    /* background-image: url("https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/digital-capabilities-lead.png"); */
+    background-color: rgb(255, 115, 0);
+    display: flex;
+   
+}
+.con3{
+    width: 100%;
+    height: 100%;
+    /* background-image: url("https://www.infosys.com/content/dam/infosys-web/en…nsive/newdesign/digital-operating-models-lead.png"); */
+    background-color: rgb(0, 157, 255);
+    display: flex;
+    
+}
+.con4{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(158, 53, 200);
+    display: flex;
+}.con6{
+height: 100%;
+width: 100%;
+background-color: azure;
+}
+.know-me{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+.know-me:hover{
+    width: 140px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+    padding: 2px 2px;
+}
+.bar1{
+    width:25%;
+    height: 40px;
+    border-top: 5px solid rgb(255, 255, 255);
+    cursor: pointer;  
+    position: relative; 
+}
+.side1{
+    display: none;
+}
+.bar1:hover+.side1{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    color: white;
+    left:60px;
+    top: 5px;
+}
+
+.bar2{
+    width: 25%;
+    height: 15px;
+    border-top: 5px solid rgb(255, 255, 255);
+    cursor: pointer;
+    padding-top: 25px;   
+}
+.side2{
+    display: none;
+}
+.bar2:hover+.side2{
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    left: 60px;
+    top: 60px;
+}.bar3{
+    width: 25%;
+    height: 35px;
+    border-top: 5px solid rgb(255, 255, 255);
+    cursor: pointer; padding-top: 2px;   
+}
+.side3{
+    display: none;
+}
+.bar3:hover+.side3{
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    left: 60px;
+    top: 100px;
+}.bar4{
+    width: 25%;
+    height: 40px;
+    border-top: 5px solid rgb(255, 255, 255);
+    cursor: pointer;   
+}
+.side4{
+    display: none;
+}
+.bar4:hover+.side4{
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    left: 60px;
+    top: 150px;
+}.bar5{
+    width: 25%;
+    height: 40px;
+    border-top: 5px solid rgb(255, 255, 255);
+    cursor: pointer;   
+}
+.side5{
+    display: none;
+}
+.bar5:hover+.side5{
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    left: 60px;
+    top: 190px;
+}.bar6{
+    width: 25%;
+    height: 40px;
+    border-top: 5px solid rgb(255, 255, 255);
+    cursor: pointer;   
+}
+.side6{
+    display: none;
+}
+.bar6:hover+.side6{
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    left: 60px;
+    top: 235px;
+}.bar7{
+    width: 25%;
+    height: 40px;
+    border-top: 5px solid rgb(255, 255, 255);
+    cursor: pointer;   
+}
+.side7{
+    display: none;
+}
+.bar7:hover+.side7{
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    left: 60px;
+    top: 283px;
+}.bar8{
+    width: 25%;
+    height: 40px;
+    border-top: 5px solid rgb(255, 255, 255);
+    cursor: pointer;   
+}
+.side8{
+    display: none;
+}
+.bar8:hover+.side8{
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    left: 60px;
+    top: 325px;
+}.bar9{
+    width: 25%;
+    height: 50px;
+    border-top: 5px solid rgb(255, 255, 255);
+    cursor: pointer;   
+}
+.side9{
+    display: none;
+}
+.bar9:hover+.side9{
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    left: 60px;
+    top: 370px;
+}
+.text{
+    padding-left: 250px;
+    color: white;
+    padding-top: 150px;
+}
+.part{
+    display:flex;
+}
+.part1{
+    height: 100px;
+    width: 200px;
+}
+.part2{
+    height: 70px;
+    width: 200px;
+}
+.view{
+    display: flex;
+}.pad{
+    padding-left: 170px;
+}.ii{
+    width:100%;
+    height: 600px;
+    padding-right: 400px;
+    padding-top: 100px;
+}
+.ii2 img{
+    height:600px;
+    width: 800px;
+   padding-top: 100px;
+}
+.tht{
+    padding-top: 150px;
+    color: white;
+}
+.part3{
+    height: 50px;
+    width: 300px;
+}
+.part4{
+    height: 70px;
+    width: 200px;
+}  
+.view1{
+    display: flex;
+    padding-top: 40px;
+} 
+.pad1{
+    padding-left: 265px;
+}
+.cen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.box{
+    height: 500px;
+    width: 800px;
+    background-color: rgb(38, 0, 92);
+    color: rgb(255, 255, 255);
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(38, 0, 92);
+
+}
+.left1{
+    height: 470px;
+    width: 400px;
+    cursor: pointer;
+}
+.show-up{
+    display: none;
+    height: 470px;
+    width: 400px;
+}
+.left1:hover+.show-up{
+    position: absolute;
+    display: block;
+    color: whitesmoke;
+    background-color: black;
+    top: 500px;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    
+}
+.up{
+    height: 50%;
+    width: 100%;
+    /* background-cbackground-color: rgb(106, 0, 255);olor: black; */
+    display: flex;
+    flex-direction: row;
+}
+.down{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(38, 0, 92);
+    display: flex;
+}
+.up-righ{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(38, 0, 92);
+}
+.up-left{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(38, 0, 92);
+}
+.down-right{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(38, 0, 92);
+    display: flex;
+}
+.down-left{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(38, 0, 92);
+}
+.up-img{
+    height: 220px;
+    width: 200px;
+}
+.how1{
+text-align: center;
+}
+.how{
+    text-align: center;
+}
+.con6{
+    width: 100%;
+    height:100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#tata{
+    width: 800px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items:flex-start;
+    background-image: url("https://www.infosys.com/content/dam/infosys-web/en/global-resource/18/banner/launches-new-sonic-identity-lead.png");
+    background-size: contain;
+    cursor: pointer;
+} 
+.ani{
+    width: 800px;
+    height: 250px;
+    /* background-color: rgb(143, 143, 143); */
+    display: flex;
+}
+.ta1{
+    width: 25%;
+    height: 100%;
+    /* background-color: aqua; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+    cursor: pointer;
+}
+.ta2{
+    width: 25%;
+    height: 100%;
+    /* background-color: rgb(0, 205, 205); */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+    cursor: pointer;
+}
+.ta3{
+    width: 25%;
+    height: 100%;
+    /* background-color: rgb(17, 116, 255); */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+    cursor: pointer;
+}
+.ta4{
+    width: 25%;
+    height: 100%;
+    /* background-color: rgb(182, 189, 189); */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+    cursor: pointer;
+}
+.sri{
+    width: 800px;
+    height: 300px;
+    cursor: pointer;
+}
+.drop{
+    width: 40%;
+    height: 100%;
+    top: 390px;
+    color: white;
+    left: 420px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
